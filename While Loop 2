@@ -1,0 +1,18 @@
+Pregunta 5
+Fill in the blanks to complete the function, which should output a multiplication table. The function accepts a variable “number” through its parameters. This “number” variable should be multiplied by the numbers 1 through 5, and printed in a format similar to “1x6=6” (“number” x “multiplier” = “result”). The code should also limit the “result” to not exceed 25. To satisfy these conditions, you will need to:
+
+def multiplication_table(number):
+    # Initialize the appropriate variable
+    multiplier = 1
+
+
+    # Complete the while loop condition.
+    while multiplier <= 5:
+        result = number * multiplier 
+        if  result > 25:
+            # Enter the action to take if the result > 25
+            break
+        print(str(number) + "x" + str(multiplier) + "=" + str(result))
+        
+        # Increment the appropriate variable
+        multiplier += 1
